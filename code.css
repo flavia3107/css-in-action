@@ -4,35 +4,89 @@ body {
 
 .destination {
   box-sizing: border-box;
-  width: 320px;
-  height: 420px;
+  width: 35rem;
+  height: 43rem;
   margin: 20px auto;
-  border: 1px solid #aaa;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px #0000003b;
   cursor: pointer;
-  transition: background-color 400ms ease-out;
+  border-radius: 9px;
+  transition: transform 0.3s ease;
 }
 
 .destination:hover,
 .destination:active {
-  background-color: #fa923f;
-  color: white;
+  transform: scale(1.05);
 }
 
 .thumbnail {
   width: 100%;
-  height: 300px;
+  height: 32rem;
   overflow: hidden;
 }
 
 .thumbnail img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .content h1 {
   margin: 10px 0;
+  font-family: none;
+  color: #656565;
+}
+
+p {
+  width: 90%;
+  margin: auto;
+  color: #5b5b5b;
+}
+
+.logo {
+  width: fit-content;
+  display: flex;
+  text-decoration: none;
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+.logo > img {
+  height: 35px;
+}
+
+.logo-txt {
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  color: #272727;
+  align-items: flex-start;
+}
+
+.logo-img {
+  width: 2rem;
+  margin-right: 3px;
+}
+
+.logo-txt h1,
+.logo-txt span {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.logo-txt h1 {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-top: 2px;
+  color: #272727;
+}
+
+.logo-txt span {
+  font-weight: lighter;
+  font-size: 0.85rem;
 }
