@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "DejaVu Sans", "Montserrat", sans-serif;
 }
 
 .destination {
@@ -39,10 +39,12 @@ body {
   margin: 10px 0;
   font-family: none;
   color: #656565;
+  font-family: "DejaVu Sans", "Montserrat", sans-serif;
 }
 
 p {
   width: 90%;
   margin: auto;
   color: #5b5b5b;
+  font-family: "DejaVu Sans", "Montserrat", sans-serif;
 }
