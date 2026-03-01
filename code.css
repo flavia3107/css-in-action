@@ -4,13 +4,14 @@ body {
 
 .destination {
   box-sizing: border-box;
-  width: 35rem;
+  max-width: 35rem;
   height: 43rem;
-  margin: 20px auto;
+  margin: 2.5rem auto;
   box-shadow: 0px 0px 4px #0000003b;
   cursor: pointer;
   border-radius: 9px;
   transition: transform 0.3s ease;
+  width: 90%;
 }
 
 .destination:hover,
